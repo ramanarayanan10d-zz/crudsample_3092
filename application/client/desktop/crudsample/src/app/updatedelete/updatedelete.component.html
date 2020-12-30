@@ -1,0 +1,15 @@
+<h2>Updatedelete</h2>
+<form class='form'>
+<div  class=' form-group'>
+<label  class=' label'>Name</label>
+<input  class=' input form-control' placeholder='Type here your name' name=input_template-inkr [(ngModel)]="details.name" [ngModelOptions]="{standalone: true}"/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Email</label>
+<input  class=' input form-control' type='email' placeholder='Type here your email' name=input_template-i449 [(ngModel)]="details.email" [ngModelOptions]="{standalone: true}"/>
+</div>
+<div  class=' form-group'>
+<button  class=' button btn btn-primary' type='submit' name=button_template-iyus8 (click)="GpUpdate()">Update</button>
+<button  class=' button btn btn-primary' name=button_template-izunz (click)="GpDelete()">Delete</button>
+</div>
+</form>
